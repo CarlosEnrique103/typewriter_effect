@@ -15,6 +15,6 @@ $ open index.html
 ```
 ## 🏞️ Preview
 
-![plot](./assets/)
+![plot](./assets/typewriter-effect.gif)
 
 ### Happy Coding! ⚡️
