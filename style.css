@@ -29,9 +29,6 @@ body {
   border-right: 4px solid var(--cursor-color);
   font-family: monospace, serif;
   letter-spacing: .15em;
-  /* animation: 
-    typing 3.5s steps(30, end), 
-    blinking .75s step-end infinite;  */
 }
 
 @keyframes typing {

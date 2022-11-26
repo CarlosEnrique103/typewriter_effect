@@ -43,7 +43,7 @@ const init = (parent, arrayElements, className) => {
 		if (index === arrayElements.length) {
 			index = 0;
 		}
-	}, 4000);
+	}, 5000);
 };
 
 init(container, greetings, "typed");
