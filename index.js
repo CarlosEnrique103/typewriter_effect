@@ -19,8 +19,10 @@ function sleep(milliseconds) {
 
 function addElementText(text, className, parent) {
 	const element = document.createElement("h1");
+	console.log(text.length);
 	element.id = "typed";
 	element.innerText = text;
+	element.style.animation = `typing 3.5s steps(${text.length}, end), blinking .75s step-end infinite`;
 	element.className = className;
 	parent.appendChild(element);
 }
@@ -41,7 +43,7 @@ const init = (parent, arrayElements, className) => {
 		if (index === arrayElements.length) {
 			index = 0;
 		}
-	}, 3500);
+	}, 4000);
 };
 
 init(container, greetings, "typed");
